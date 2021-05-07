@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QC_Project</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Qcircuit</h1>
+
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+
+    <form id="login-form">
+      <input type="text" name="username" id="login_username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="login_password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+      <div class="not_a_mem">Not a member? <span class="register">Register</span></div>
+      <div class="social_media_login">
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-github"></a>
+      </div>
+    </form>
+
+    <form id="register_form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="text" name="email" id="email-field" class="login-form-field" placeholder="Email">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="password" name="password" id="confirm-password-field" class="login-form-field" placeholder="Confirm Password">
+      <input type="submit" value="Register" id="register-form-submit">
+      <div class="already_reg">Already register? <span class="login">Login</span></div>
+    </form>
+
+  </main>
+</body>
+<script src="../scripts/main.js"></script>
+</html>
