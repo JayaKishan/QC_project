@@ -25,7 +25,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "kishan" && password === "user") {
+    if (username === "user" && password === "admin") {
         loginErrorMsg.style.opacity = 0;
         window.open("./dashboard.html","_self");
     } else {
