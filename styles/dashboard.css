@@ -27,21 +27,21 @@ body {
   cursor: pointer;
 }
 
+.boxes {
+  float: left;
+}
+
 .user_name{
   text-transform: capitalize;
 }
 .container {
-  ...
   position: relative;
-}
-
-.qc_circuit {
-  width: 70%;
+  width: 90%;
   height: auto;
   background-color: #f3eeee;
   position: absolute;
   top: 15%;
-  left: 15%;
+  left: 5%;
   padding: 2%;
   margin: -25px 0 0 -25px;
 }
@@ -70,4 +70,15 @@ body {
   left: 0%;
   padding: 2%;
   margin: -25px 0 0 -25px;
+}
+.gates_container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.gates {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
 }
